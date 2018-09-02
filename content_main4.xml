@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/snacks1"
+        android:visibility="visible"
+    tools:context="com.example.abiram.nascom.Main4Activity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="383dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_weight="0.04"
+        android:background="@android:color/background_light"
+        android:text="ALAYAM MENU CARD"
+        android:textAlignment="center"
+        android:textColor="#26d3d0"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="51dp"
+        android:layout_marginStart="51dp"
+        android:text="ORDER" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="71dp"
+        android:text="Cancel" />
+
+    <CheckBox
+        android:id="@+id/cake"
+        android:layout_width="182dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:background="#e3e1e1"
+        android:text="CAKE      "
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="52dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@+id/cake"
+        android:layout_toEndOf="@+id/cake"
+        android:layout_toRightOf="@+id/cake"
+        android:text=" -" />
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="93dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/cake"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginStart="-7dp"
+        android:layout_toEndOf="@+id/minus"
+        android:layout_toRightOf="@+id/minus"
+        android:background="@android:color/background_light"
+        android:hint="           00" />
+
+    <Button
+        android:id="@+id/sum"
+        android:layout_width="52dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@+id/cake"
+        android:layout_marginLeft="-71dp"
+        android:layout_marginStart="-71dp"
+        android:layout_toEndOf="@+id/cancel"
+        android:layout_toRightOf="@+id/cancel"
+        android:text=" +" />
+
+
+    <CheckBox
+        android:id="@+id/sandwitch"
+        android:layout_width="182dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:background="#eaeaea"
+        android:text="SANDWITCH "
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/minus1"
+        android:layout_width="52dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@+id/sandwitch"
+        android:layout_toEndOf="@+id/sandwitch"
+        android:layout_toRightOf="@+id/sandwitch"
+        android:text=" -"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="93dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/sandwitch"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginStart="-7dp"
+        android:layout_toEndOf="@+id/minus"
+        android:layout_toRightOf="@+id/minus"
+        android:background="@android:color/background_light"
+        android:hint="           00" />
+
+    <Button
+        android:id="@+id/sum1"
+        android:layout_width="52dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@+id/sandwitch"
+        android:layout_marginLeft="-71dp"
+        android:layout_marginStart="-71dp"
+        android:layout_toEndOf="@+id/cancel"
+        android:layout_toRightOf="@+id/cancel"
+        android:text=" +"
+        tools:ignore="DuplicateIds" />
+
+
+    <CheckBox
+        android:id="@+id/burger"
+        android:layout_width="182dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:background="#ede9e9"
+        android:text="BURGER"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/minus2"
+        android:layout_width="52dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@+id/burger"
+        android:layout_toEndOf="@+id/burger"
+        android:layout_toRightOf="@+id/burger"
+        android:text=" -"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="93dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/burger"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginStart="-7dp"
+        android:layout_toEndOf="@+id/minus"
+        android:layout_toRightOf="@+id/minus"
+        android:background="@android:color/background_light"
+        android:hint="           00" />
+
+    <Button
+        android:id="@+id/sum1"
+        android:layout_width="52dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@+id/burger"
+        android:layout_marginLeft="-71dp"
+        android:layout_marginStart="-71dp"
+        android:layout_toEndOf="@+id/cancel"
+        android:layout_toRightOf="@+id/cancel"
+        android:text=" +"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_marginStart="60dp"
+        android:text="TOTAL :"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/view"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/view"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="-11dp"
+        android:layout_marginRight="-11dp"
+        android:background="@android:color/background_light"
+        android:hint="     00.00" />
+
+
+</RelativeLayout>

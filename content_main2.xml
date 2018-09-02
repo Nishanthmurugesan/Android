@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cookes"
+        tools:context="com.example.abiram.nascom.Main2Activity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="383dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_weight="0.04"
+        android:background="@android:color/background_light"
+        android:text="ADMIN LOGIN"
+        android:textAlignment="center"
+        android:textColor="#26d3d0"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="51dp"
+        android:layout_marginStart="51dp"
+        android:text="UPDATE" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="71dp"
+        android:text="Cancel" />
+
+    <CheckBox
+        android:id="@+id/cake1"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="108dp"
+        android:background="#d4d2d2"
+        android:text="cake" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="120dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/cake1"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/background_light"
+        android:hint="  QUANTITY" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="110dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/cake1"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@android:color/background_light"
+        android:hint="  PRICE/piece" />
+
+
+    <CheckBox
+        android:id="@+id/sandwitch1"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="158dp"
+        android:background="#d4d2d2"
+        android:text="Sandwitch" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="120dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/sandwitch1"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/background_light"
+        android:hint="  QUANTITY" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="110dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/sandwitch1"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@android:color/background_light"
+        android:hint="   PRICE/piece" />
+
+
+    <CheckBox
+        android:id="@+id/burger1"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="208dp"
+        android:background="#d4d2d2"
+        android:text="Burger" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="120dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/burger1"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/background_light"
+        android:hint="   QUANTITY" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="110dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/burger1"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@android:color/background_light"
+        android:hint="   PRICE/piece" />
+
+
+</RelativeLayout>
